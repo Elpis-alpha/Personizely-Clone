@@ -1,0 +1,133 @@
+.centerswirl1Icon {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 503.5px);
+  left: calc(50% - 581px);
+  width: 1138px;
+  height: 1007px;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+.getStarted {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 1.2px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.div1,
+.startConvertingMore {
+  display: flex;
+  align-items: center;
+}
+.startConvertingMore {
+  position: relative;
+  font-size: var(--font-size-8xl);
+  line-height: 52px;
+  font-weight: 500;
+  justify-content: center;
+  width: 460px;
+}
+.div1 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.getStartedFor {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 1.4px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.a {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-4xl);
+  background-color: var(--person-color-button1);
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bookADemo {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 1.4px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--person-color-button1);
+  text-align: center;
+}
+.a1 {
+  cursor: pointer;
+  border: 2px solid var(--person-color-button1);
+  padding: var(--padding-sm) var(--padding-4xl);
+  background-color: transparent;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div,
+.div2,
+.startSection {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.div2 {
+  flex-direction: row;
+  padding: var(--padding-sm) 0 0;
+  justify-content: center;
+  gap: var(--gap-md);
+}
+.div,
+.startSection {
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.startSection {
+  background-color: var(--color-white);
+  padding: var(--padding-15xl) var(--padding-13xl);
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-5xs);
+  color: var(--person-dark-text1);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 420px) {
+  .startConvertingMore {
+    font-size: var(--font-size-4xl);
+  }
+  .div2 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 620px) {
+  .startConvertingMore {
+    align-self: stretch;
+    width: auto;
+  }
+  .startSection {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

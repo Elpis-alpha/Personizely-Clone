@@ -1,0 +1,190 @@
+.aConversionMarketing {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 1.2px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.popupsWebsitePersonalizatio,
+.turnYourWebsite {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-9xl);
+  line-height: 57.2px;
+  font-weight: 500;
+  color: var(--person-dark-text1);
+}
+.popupsWebsitePersonalizatio {
+  font-size: var(--font-size-base);
+  line-height: 29.25px;
+  font-weight: 300;
+  color: var(--color-dimgray);
+}
+.div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.freeTrial {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 1.4px;
+  line-height: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.a {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-md) var(--padding-lg) var(--padding-md)
+    var(--padding-2xl);
+  background-color: var(--person-color-button1);
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bookADemo {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 1.4px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--person-dark-text1);
+  text-align: center;
+}
+.a1,
+.div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.a1 {
+  cursor: pointer;
+  border: 1px solid var(--person-stroke1);
+  padding: var(--padding-xs) var(--padding-8xl) var(--padding-xs)
+    var(--padding-4xl);
+  background-color: transparent;
+  border-radius: var(--br-xs);
+  justify-content: center;
+}
+.div1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.daysFreeTrial {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-2xs);
+  line-height: 25.6px;
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-dimgray);
+}
+.htLeft {
+  width: 400px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.svgIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.div2,
+.hTop {
+  display: flex;
+  flex-direction: row;
+}
+.div2 {
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 60%;
+  max-height: 100%;
+}
+.hTop {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-5xs);
+  color: var(--color-darkgray);
+  font-family: var(--person-text1);
+}
+@media screen and (max-width: 1200px) {
+  .aConversionMarketing {
+    font-size: var(--font-size-5xs);
+    text-align: center;
+  }
+  .popupsWebsitePersonalizatio,
+  .turnYourWebsite {
+    text-align: center;
+  }
+  .div,
+  .div1 {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .div1 {
+    justify-content: center;
+  }
+  .daysFreeTrial {
+    text-align: center;
+  }
+  .htLeft {
+    align-items: center;
+    justify-content: center;
+    order: 2;
+  }
+  .div2 {
+    max-width: 80%;
+    order: 1;
+  }
+  .hTop {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 960px) {
+  .htLeft {
+    width: 350px;
+  }
+  .div2 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .turnYourWebsite {
+    font-size: var(--font-size-5xl);
+  }
+  .a,
+  .a1 {
+    padding: var(--padding-6xs) var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .a1 {
+    padding: var(--padding-6xs) var(--padding-6xs) var(--padding-3xs)
+      var(--padding-3xs);
+  }
+  .div1 {
+    flex-direction: column;
+  }
+  .htLeft {
+    width: 250px;
+  }
+}

@@ -1,0 +1,50 @@
+.wixLogoB10bbde61dsvgIcon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.div3,
+.ulIcon {
+  position: relative;
+}
+.div3 {
+  line-height: 27px;
+}
+.ulIcon {
+  width: 96px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.div2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.wix191 {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  line-height: 28px;
+  font-weight: 300;
+  color: var(--color-dimgray);
+}
+.div,
+.div1 {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-7xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  flex-direction: row;
+  padding: var(--padding-12xs) 0 var(--padding-12xs) var(--padding-7xs);
+  align-items: center;
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}

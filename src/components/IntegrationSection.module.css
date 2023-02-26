@@ -1,0 +1,90 @@
+.integrations {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 1.2px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.aSeamlessWorkflow,
+.integrateIntoYour {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-7xl);
+  line-height: 52px;
+  font-weight: 500;
+  color: var(--person-dark-text1);
+}
+.aSeamlessWorkflow {
+  font-size: var(--font-size-base);
+  line-height: 29.25px;
+  font-weight: 300;
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-dimgray);
+}
+.div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-11xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.integrationsHomeA25b06e86e1Icon {
+  position: relative;
+  width: 1300px;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+  max-width: 100%;
+}
+.seeAllIntegrations {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 1.4px;
+  line-height: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.a,
+.integrateSection {
+  display: flex;
+  justify-content: flex-start;
+}
+.a {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-10xl);
+  background-color: var(--person-color-button1);
+  border-radius: var(--br-xs);
+  flex-direction: row;
+  align-items: flex-start;
+}
+.integrateSection {
+  align-self: stretch;
+  background-color: var(--see-through1);
+  flex-direction: column;
+  padding: var(--padding-15xl) var(--padding-13xl);
+  align-items: center;
+  z-index: 3;
+  text-align: center;
+  font-size: var(--font-size-5xs);
+  color: var(--color-darkgray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 420px) {
+  .integrateIntoYour {
+    font-size: var(--font-size-4xl);
+  }
+}
+@media screen and (max-width: 620px) {
+  .integrateSection {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

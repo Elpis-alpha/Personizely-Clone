@@ -1,0 +1,30 @@
+.trustedBy2500 {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+}
+.hBottom,
+.hUl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-md);
+  text-align: left;
+}
+.hBottom {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-14xs) 0;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 960px) {
+  .hUl {
+    flex-direction: column;
+  }
+}

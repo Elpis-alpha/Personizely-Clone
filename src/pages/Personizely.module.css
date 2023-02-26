@@ -1,0 +1,72 @@
+.hInner {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xl);
+  z-index: 0;
+}
+.down8e55b50dsvgIcon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.down8e55b50dsvg,
+.downBtn,
+.downIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.downBtn,
+.downIcon {
+  border-radius: var(--br-xl);
+  align-items: center;
+  justify-content: center;
+}
+.downBtn {
+  border: 1px solid var(--person-color-button1);
+  padding: var(--padding-4xl);
+}
+.downIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs);
+  background-color: var(--color-white);
+  margin: 0 !important;
+  position: absolute;
+  bottom: -47.88px;
+  left: calc(50% - 48px);
+  z-index: 5;
+}
+.heroSection,
+.personizely {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heroSection {
+  align-self: stretch;
+  background-color: var(--see-through1);
+  padding: 0 var(--padding-13xl) 100px;
+  z-index: 3;
+}
+.personizely {
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+}
+@media screen and (max-width: 620px) {
+  .heroSection {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,236 @@
+.product,
+.widgets {
+  align-self: stretch;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product {
+  line-height: 22.5px;
+  font-weight: 500;
+  height: 19px;
+}
+.widgets {
+  line-height: 40px;
+  height: 21px;
+}
+.div1,
+.ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ul {
+  align-self: stretch;
+  gap: var(--gap-lg);
+  color: var(--see-through1);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.div1 {
+  width: 200px;
+  flex-shrink: 0;
+  padding: var(--padding-16xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+}
+.solutions,
+.ul1 {
+  align-self: stretch;
+}
+.solutions {
+  position: relative;
+  line-height: 22.5px;
+  font-weight: 500;
+}
+.ul1 {
+  flex-direction: column;
+  gap: var(--gap-lg);
+  font-size: var(--person-text1-size);
+  color: var(--see-through1);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.div2,
+.divParent,
+.ul1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div2 {
+  width: 200px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-16xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  font-size: var(--font-size-2xs);
+}
+.divParent {
+  flex-direction: row;
+  gap: var(--gap-9xl);
+  flex-wrap: wrap;
+}
+.aboutUs,
+.ul2 {
+  align-self: stretch;
+}
+.aboutUs {
+  position: relative;
+  line-height: 40px;
+}
+.ul2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--person-text1-size);
+  color: var(--see-through1);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.facebook379f937asvgIcon {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.facebook379f937asvg {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.div6 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.div5,
+.div6,
+.divGroup,
+.nav {
+  display: flex;
+  align-items: flex-start;
+}
+.div5 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  font-size: var(--font-size-2xs);
+}
+.divGroup,
+.nav {
+  flex-direction: row;
+}
+.divGroup {
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  flex-wrap: wrap;
+  font-size: var(--font-size-xs);
+}
+.nav {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.logoWhite375703099aBadb5bf5Icon {
+  position: relative;
+  width: 147px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.personizelyAllRights {
+  position: relative;
+  line-height: 19.5px;
+}
+.div8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.goToTop {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 1.4px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro);
+  padding: var(--padding-xs) var(--padding-5xl) var(--padding-xs)
+    var(--padding-6xl);
+  background-color: transparent;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.div,
+.div7,
+.footerSection {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.div7 {
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--font-size-4xs);
+  color: var(--see-through1);
+}
+.div,
+.footerSection {
+  flex-direction: column;
+  justify-content: center;
+}
+.div {
+  gap: var(--gap-md);
+}
+.footerSection {
+  background-color: var(--color-gray-100);
+  padding: var(--padding-12xl) var(--padding-13xl);
+  z-index: 3;
+  text-align: left;
+  font-size: var(--person-text1-size);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .divGroup,
+  .divParent {
+    gap: var(--gap-6xs);
+  }
+}
+@media screen and (max-width: 960px) {
+  .div7,
+  .nav {
+    flex-direction: column;
+    gap: var(--gap-7xl);
+  }
+  .div7 {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 620px) {
+  .footerSection {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

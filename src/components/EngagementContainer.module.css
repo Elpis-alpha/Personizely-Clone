@@ -1,0 +1,224 @@
+.widgets {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 1.2px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.createPopupBar,
+.powerfulMarketingTools {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-7xl);
+  line-height: 52px;
+  font-weight: 500;
+  color: var(--person-dark-text1);
+}
+.createPopupBar {
+  font-size: var(--font-size-base);
+  line-height: 29.25px;
+  font-weight: 300;
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-dimgray);
+}
+.powerTop {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.listBuildingX25cc323af6dpnIcon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-sm);
+  max-width: 100%;
+  overflow: hidden;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.powerImage {
+  flex: 1;
+  border-radius: var(--br-lg);
+  background-color: var(--see-through1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-12xl);
+  align-items: center;
+  justify-content: center;
+}
+.everyUseCaseCovered {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-2xl);
+  line-height: 41.6px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.listBuilding {
+  position: relative;
+  line-height: 27px;
+}
+.vectorIcon {
+  position: relative;
+  width: 31.4px;
+  height: 17.44px;
+  flex-shrink: 0;
+}
+.list {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.label,
+.pitc,
+.powerRrr {
+  align-self: stretch;
+  display: flex;
+}
+.label {
+  flex-direction: row;
+  padding: var(--padding-sm) 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.pitc,
+.powerRrr {
+  flex-direction: column;
+}
+.pitc {
+  border-radius: var(--br-md);
+  background-color: var(--see-through1);
+  padding: 0 var(--padding-11xl);
+  align-items: center;
+  justify-content: center;
+}
+.powerRrr {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorIcon1 {
+  position: relative;
+  width: 28px;
+  height: 25.29px;
+  flex-shrink: 0;
+}
+.addTask {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.vectorIcon2 {
+  position: relative;
+  width: 26.03px;
+  height: 26.02px;
+  flex-shrink: 0;
+}
+.shoppingCart {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vectorIcon3 {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.powIii,
+.powerRight,
+.queryBuilder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.queryBuilder {
+  overflow: hidden;
+  flex-direction: row;
+}
+.powIii,
+.powerRight {
+  flex-direction: column;
+}
+.powIii {
+  width: 430px;
+  gap: var(--gap-md);
+}
+.powerRight {
+  flex: 1;
+}
+.addTaskIcon {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.powerBottom,
+.powerfulSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) 0;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--person-dark-text1);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.powerfulSection {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-15xl) var(--padding-13xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-5xs);
+  color: var(--color-darkgray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 960px) {
+  .powerImage {
+    max-width: 90%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .powIii {
+    align-self: stretch;
+    width: auto;
+  }
+  .powerRight {
+    flex: unset;
+    align-self: stretch;
+  }
+  .powerBottom {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .powerfulMarketingTools {
+    font-size: var(--font-size-4xl);
+  }
+}
+@media screen and (max-width: 620px) {
+  .powerfulSection {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
